@@ -79,7 +79,7 @@ class ParkingLot:
                 if self.details[i][0]==regNum:
                     res=i
                     break
-        print(res)
+        return res
 
 
 if __name__=='__main__':
